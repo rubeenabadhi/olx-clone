@@ -1,0 +1,118 @@
+.home-page {
+  background: white;
+  min-height: 100vh;
+}
+
+.home-content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.category-icon-wrapper {
+  width: 150px;
+  height: 150px;
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+
+.category-icon {
+  width: 90px;
+  height: 90px;
+
+}
+
+.category-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #002f34;
+}
+
+.recommendations h2 {
+  font-size: 22px;
+  margin-bottom: 16px;
+  color: #002f34;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+}
+.category-item:hover .category-icon-wrapper {
+  background: #ebfaf8;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.category-item:hover .category-icon {
+  transform: scale(1.1);
+}
+
+.category-item:hover .category-name {
+  color: #002f34; /* OLX dark green */
+  font-weight: 600;
+}
+.category-item:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+@media (max-width: 1024px) {
+  .category-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.load-more-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.load-more-btn {
+  background: #fff;
+  border: 1px solid #002f34;
+  color: #002f34;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.load-more-btn:hover {
+  background: #002f34;
+  color: #fff;
+}
+
+.load-more-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.no-more-text {
+  text-align: center;
+  color: #6e6e6e;
+  font-size: 13px;
+  margin-top: 20px;
+}

@@ -1,0 +1,85 @@
+.myads-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 24px 80px;
+}
+
+.myads-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #002f34;
+  margin-bottom: 24px;
+}
+
+.myads-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.myads-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  padding: 16px;
+}
+
+.myads-image {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myads-info {
+  flex: 1;
+}
+
+.myads-price {
+  font-weight: 700;
+  color: #002f34;
+  font-size: 16px;
+}
+
+.myads-ad-title {
+  font-size: 14px;
+  color: #002f34;
+  margin: 4px 0;
+}
+
+.myads-location {
+  font-size: 12px;
+  color: #6e6e6e;
+}
+
+.myads-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.myads-edit-btn,
+.myads-delete-btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.myads-edit-btn {
+  background: #fff;
+  color: #002f34;
+  border-color: #002f34;
+}
+
+.myads-delete-btn {
+  background: #fff;
+  color: #d0021b;
+  border-color: #d0021b;
+}

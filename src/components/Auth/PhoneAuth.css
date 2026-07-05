@@ -1,0 +1,78 @@
+.phone-auth {
+  padding-top: 10px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: #002f34;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.phone-auth h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #002f34;
+}
+
+.phone-input-row {
+  display: flex;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+
+.country-code {
+  padding: 12px;
+  background: #f5f5f5;
+  font-weight: 600;
+  border-right: 1px solid #d1d1d1;
+}
+
+.phone-input-row input,
+.otp-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 12px;
+  font-size: 15px;
+  width: 100%;
+}
+
+.otp-input {
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+.otp-subtext {
+  font-size: 13px;
+  color: #6e6e6e;
+  margin-bottom: 12px;
+}
+
+.auth-primary-btn {
+  width: 100%;
+  background: #002f34;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.auth-primary-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.auth-error {
+  color: #d0021b;
+  font-size: 13px;
+  margin-bottom: 10px;
+}

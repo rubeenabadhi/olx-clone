@@ -1,0 +1,33 @@
+.email-auth {
+  padding-top: 10px;
+}
+
+.email-auth h3 {
+  font-size: 18px;
+  margin-bottom: 18px;
+  color: #002f34;
+}
+
+.email-input {
+  width: 100%;
+  border: 1px solid #d1d1d1;
+  border-radius: 4px;
+  padding: 12px;
+  font-size: 15px;
+  margin-bottom: 14px;
+  outline: none;
+}
+
+.switch-mode {
+  text-align: center;
+  font-size: 13px;
+  color: #6e6e6e;
+  margin-top: 16px;
+}
+
+.switch-mode span {
+  color: #002f34;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
